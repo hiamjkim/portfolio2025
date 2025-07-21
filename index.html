@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO2025</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- 슬라이드 링크 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <h1>LOGO</h1>
+        <a href="">ABOUT</a>
+        <a href="">WORKS</a>
+        <a href="">CONTACT</a>
+    </header>
+
+    <!-- 메인 비주얼 -->
+    <div class="mainVisual">
+        <p>안녕하세요!<br>저는 ___입니다.</p>
+    </div>
+
+    <!-- 콘텐츠 -->
+    <main>
+        <section class="slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="https://hiamjkim.github.io/pf1/"><img src="/img/1.PNG" alt=""></a></div>
+                    <div class="swiper-slide"><a href="https://hiamjkim.github.io/pf2/"><img src="/img/2.PNG" alt=""></a></div>
+                    <div class="swiper-slide"><a href="https://hiamjkim.github.io/pf4/"><img src="/img/3.PNG" alt=""></a></div>
+                    <div class="swiper-slide"><a href="https://hiamjkim.github.io/de.cl/"><img src="/img/4.PNG" alt=""></a></div>
+                    <div class="swiper-slide"><a href="https://hiamjkim.github.io/"><img src="/img/5.PNG" alt=""></a></div>
+                    <div class="swiper-slide"><a href="https://vue-rara.vercel.app/"><img src="/img/6.PNG" alt=""></a></div>
+                    <div class="swiper-slide"><a href=""></a>Slide 7</div>
+                    <div class="swiper-slide"><a href=""></a>Slide 8</div>
+                    <div class="swiper-slide"><a href=""></a>Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer>
+        <p>© 2025. All Rights Reserved.
+            📧 qpalzm@example.com | 📱 010-1234-5678 |
+            LinkedIn, Behance, GitHub, Instagram</p>
+    </footer>
+
+    <!-- 슬라이드 스크립트 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
